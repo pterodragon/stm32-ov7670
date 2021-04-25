@@ -47,8 +47,7 @@
 #define SCCB_REG_ADDR 			0x01
 
 // OV7670 camera settings
-#define OV7670_REG_NUM 			121
-#define OV7670_WRITE_ADDR 	0x42
+#define OV7670_WRITE_ADDR 	    0x42
 
 // Image settings
 #define IMG_ROWS   					144

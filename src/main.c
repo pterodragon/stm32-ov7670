@@ -27,6 +27,7 @@
 #include "OV7670_control.h"
 #include <stdbool.h>
 #include "usart.h"
+#include <stm32f4xx_usart.h>
 
 static volatile bool frame_flag = false;
 static volatile bool send_sync_frame = false;
